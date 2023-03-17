@@ -1,5 +1,5 @@
 # metashape2instant-ngp
-[**English**](./README.en.md)
+[**English**](./README.md)
 
 本リポジトリは，以下のプログラムを含む
 * metashape2nerf.py: フォトグラメトリソフト[Metashape](https://www.agisoft.com/)から取得できるXML形式のカメラ座標データを，[Instant NeRF](https://github.com/NVlabs/instant-ngp)に入力するJSON形式に成型するプログラム
