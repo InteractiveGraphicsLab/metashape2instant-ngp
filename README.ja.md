@@ -1,4 +1,6 @@
-# 概要
+# metashape2instant-ngp
+[**English**](./README.en.md)
+
 本リポジトリは，以下のプログラムを含む
 * metashape2nerf.py: フォトグラメトリソフト[Metashape](https://www.agisoft.com/)から取得できるXML形式のカメラ座標データを，[Instant NeRF](https://github.com/NVlabs/instant-ngp)に入力するJSON形式に成型するプログラム
 
@@ -13,7 +15,7 @@
 * matplotlib 3.5.3
 
 # metashape2nerf.py
-## ディレクトリ構成
+## フォルダ構成
 ```
 .
 ├─ metashape2nerf.py
@@ -39,10 +41,12 @@ python metashape2nerf.py --recenter ./fern
 カメラ座標データが保存されているJSONファイル/XMLファイルへのパス
 
 ## 実行例
-コマンド
 ```
 python visualize_json.py ship\transforms.json
 ```
 
-実行結果
 ![Figure](image/figure.png)
+
+
+# 謝辞
+本ソフトウエアはJSPS科研費 22H03710の助成を受けて開発されました。
