@@ -49,4 +49,4 @@ python visualize_json.py ship\transforms.json
 
 
 # 謝辞
-本ソフトウエアはJSPS科研費 22H03710の助成を受けて開発されました。
+本ソフトウエアはJSPS科研費 22H03710の助成を受けて開発されました.
